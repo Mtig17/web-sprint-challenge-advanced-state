@@ -27,9 +27,9 @@ export default function App() {
     <Provider store={store}>
       <BrowserRouter>
         <Message />
-        <h1>Advanced State</h1>
+        <h1>Advanced Statte</h1>
         <nav>
-          <NavLink id="wheelLink" to="/">Wheel</NavLink>
+          <NavLink id="wheelLink" to="/">Wheeel</NavLink>
           <NavLink id="quizLink" to="/quiz">Quiz</NavLink>
           <NavLink id="formLink" to="/quiz-new">Form</NavLink>
         </nav>
